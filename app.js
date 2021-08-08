@@ -33,5 +33,5 @@ app.post('/post', (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log("Server is Listenig request at port `${PORT}`");
+    console.log(`Server is Listenig request at port ${PORT}`);
 })
